@@ -6,11 +6,6 @@ WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK')
 
 TARGETS = [
     {
-        "name": "Job Search",
-        "url": "https://www.makeitinthenorth.nl/jobs?location=Groningen&level=Entry",
-        "selector": "h2"
-    },
-    {
         "name": "FREE STUFF",
         "url": "https://www.gratisaftehalen.nl/nl/groningen",
         "selector": "h2.listing-item__title" # Typical class for this site
